@@ -22,7 +22,29 @@ This project will be helpful for various different populations. It will be helpf
 
 * Use supervised models such as XGBoost, Decision Trees and Random Forest to predict crime.
 
+## ** Exploratory Data Analysis**
+
+#### Number of Crimes by Offense Type
+![img](https://github.com/6cats1dog/Denver-Crime-Prediction/blob/main/Number%20of%20Crimes%20by%20Offense%20Type.png)
+
+#### Number of Crimes by Neighborhood
+![img](https://github.com/6cats1dog/Denver-Crime-Prediction/blob/main/Number%20of%20Crimes%20by%20Neighborhood.png)
+
+
+
 ## **Results**
+
+### Feature Importance from Models
+
+#### Decision Trees
+![img](https://github.com/6cats1dog/Denver-Crime-Prediction/blob/main/Decision%20Trees%20Features.png)
+
+#### Random Forest
+![img](https://github.com/6cats1dog/Denver-Crime-Prediction/blob/main/Random%20Forest%20Features.png)
+
+
+#### XGBoost
+![img](https://github.com/6cats1dog/Denver-Crime-Prediction/blob/main/XGBoost%20Features.png)
 
 The results for our models were as follows:
 
@@ -33,6 +55,14 @@ The results for our models were as follows:
 Although these are not satisfactory results, there is understanding as to the challenges that were faced during modeling. The complexity of the models with all the features created challenges correlated with predictive models for crime. Research has failed to produce efficient models when it comes to large datasets such as the one that we worked with. In some models, high levels of accuracy were able to be achieved, however these results were limited to small datasets with limited features. The important features that need to be considered when using Machine Learning in order to predict crime is the computational speed, robustness and the scalability of our data. It is important to note as well that a small change in the data could lead to a large change in structure of our data.
 
 ## **Recommendations Proposed**
+
+Although our models did not produce as robust as results as we would have liked, 32% (Decision Trees), 27% (XGBoost), and 32% (Random Forest) there are some recommendations we can make.
+
+* Median earnings was an important feature, and this can in both directions. More crime prevention and community services should be offered in low median earning locations and more patrolling should be done in high median earning areas as much of the crime in these areas involve larceny.
+
+* Geolocation plays a big role, and crime tends to occur in an area where criminals are familiar with the location. This should lead to greater patrolling in areas where there is geographically more crime
+
+* As highlighted by our exploratory analysis and our XGBoost model, neighborhood plays an important role in identifying and predicting where crime might happen. Extra patrolling and community outreach services should be implemented in the areas of Five Points, Montbello, and East Colfax. This can also include community education in term of how to keep oneself, our neighbors and communities safe. Also using apps like Nextdoor can help community members stay informed of what is going on in their neighborhood.
 
 ## **Conclusion and Future Work**
 In an extension to the work that has been completed, it is planned to add more classification models to hopefully increase the crime prediction accuracy and hopefully enhance overall performance. It is also the hope to include previously excluded features from the demographic portion of our dataset. We have the option to add gender, education level, earnings levels and race into our model. It will be interesting to see if any of these demographics make a sizable impact on the performance of our model.
