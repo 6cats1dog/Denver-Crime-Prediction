@@ -8,7 +8,7 @@ Crime is a challenging social problem across major cities and metropolitan areas
 
 ## **Business Problem**
 
-The goal of this project is to predict crime that will occur, based on the location in Denver's 78 nieghborhoods. Predicting crime will help solve the challenge of allocating resources were they are most needed, leading to safer communities and crime prevention.  
+The goal of this project is to predict crime that will occur, based on the location in Denver's 78 neighborhoods. Predicting crime will help solve the challenge of allocating resources were they are most needed, leading to safer communities and crime prevention.  
 
 This project will be helpful for various different populations. It will be helpful for those that wish to move to the Denver area, as they will be able to determine what area they would like to move to. Also, it will be helpful for locals and tourists alike in the sense that they will be able to determine what places should be avoided or at what time their risk of being a victim of a crime might be higher. Most importantly, I believe that this could help in the allocation of resources whether it would mean a more equal distribution of police resources or better allocation of city funds to put in place preventative measures to make more affected communities safer. The goal is to raise awareness to the increase in crime, and the neighborhoods in Denver that are requiring the most help reducing this issue.
 
