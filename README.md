@@ -8,7 +8,7 @@ Crime is a challenging social problem across major cities and metropolitan areas
 
 ## **Business Problem**
 
-The goal of this project is to predict crime that will occur, based on the location in Denver's 78 neighborhoods. Predicting crime will help solve the challenge of allocating resources were they are most needed, leading to safer communities and crime prevention.  
+The goal of this project is to predict crime that will occur, based on the location in Denver's 78 neighborhoods. Predicting crime will help solve the challenge of allocating resources where they are most needed, leading to safer communities and crime prevention.  
 
 This project will be helpful for various different populations. It will be helpful for those that wish to move to the Denver area, as they will be able to determine what area they would like to move to. Also, it will be helpful for locals and tourists alike in the sense that they will be able to determine what places should be avoided or at what time their risk of being a victim of a crime might be higher. Most importantly, I believe that this could help in the allocation of resources whether it would mean a more equal distribution of police resources or better allocation of city funds to put in place preventative measures to make more affected communities safer. The goal is to raise awareness to the increase in crime, and the neighborhoods in Denver that are requiring the most help reducing this issue.
 
@@ -56,13 +56,13 @@ Although these are not satisfactory results, there is understanding as to the ch
 
 ## **Recommendations Proposed**
 
-Although our models did not produce as robust as results as we would have liked, 32% (Decision Trees), 27% (XGBoost), and 32% (Random Forest) there are some recommendations we can make.
+Although our models did not produce as robust results as we would have liked, 32% (Decision Trees), 27% (XGBoost), and 32% (Random Forest) there are some recommendations we can make.
 
-* Median earnings was an important feature, and this can in both directions. More crime prevention and community services should be offered in low median earning locations and more patrolling should be done in high median earning areas as much of the crime in these areas involve larceny.
+* Median earnings was an important feature, and this can go in both directions. More crime prevention and community services should be offered in low median earning locations and more patrolling should be done in high median earning areas as much of the crime in these areas involve larceny.
 
 * Geolocation plays a big role, and crime tends to occur in an area where criminals are familiar with the location. This should lead to greater patrolling in areas where there is geographically more crime
 
-* As highlighted by our exploratory analysis and our XGBoost model, neighborhood plays an important role in identifying and predicting where crime might happen. Extra patrolling and community outreach services should be implemented in the areas of Five Points, Montbello, and East Colfax. This can also include community education in term of how to keep oneself, our neighbors and communities safe. Also using apps like Nextdoor can help community members stay informed of what is going on in their neighborhood.
+* As highlighted by our exploratory analysis and our XGBoost model, neighborhood plays an important role in identifying and predicting where crime might happen. Extra patrolling and community outreach services should be implemented in the areas of Five Points, Montbello, and East Colfax. This can also include community education in terms of how to keep oneself, our neighbors and communities safe. Also using apps like Nextdoor can help community members stay informed of what is going on in their neighborhood.
 
 ## **Conclusion and Future Work**
 In an extension to the work that has been completed, it is planned to add more classification models to hopefully increase the crime prediction accuracy and hopefully enhance overall performance. It is also the hope to include previously excluded features from the demographic portion of our dataset. We have the option to add gender, education level, earnings levels and race into our model. It will be interesting to see if any of these demographics make a sizable impact on the performance of our model.
